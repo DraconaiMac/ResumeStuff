@@ -1,4 +1,4 @@
-pe html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -30,6 +30,7 @@ pe html>
       <div>
         <h1>Mac Kettner</h1>
         <p class="subtitle">Technical Writer / Technical Trainer</p>
+
         <div class="buttons">
           <!-- This downloads the vCard file -->
           <a class="button primary" href="mac-kettner.vcf" download>Save Contact (vCard)</a>
