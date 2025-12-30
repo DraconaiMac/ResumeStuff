@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mac Kettner — Save Contact</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; padding: 24px; }
+    .card { max-width: 720px; margin: 0 auto; border: 1px solid #ddd; border-radius: 14px; padding: 20px; }
+    .top { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+    img { width: 120px; height: 120px; object-fit: cover; border-radius: 14px; border: 1px solid #ddd; }
+    h1 { margin: 0; font-size: 28px; }
+    .subtitle { margin: 4px 0 0 0; color: #444; }
+    .buttons { margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap; }
+    a.button {
+      display: inline-block; padding: 12px 14px; border-radius: 12px;
+      border: 1px solid #222; text-decoration: none; color: #111;
+    }
+    a.primary { background: #111; color: #fff; }
+    .info { margin-top: 18px; line-height: 1.55; }
+    .label { color: #666; display: inline-block; min-width: 88px; }
+    .footer { margin-top: 18px; color: #666; font-size: 13px; }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <div class="top">
+      <img src="Profile.png" alt="Mac Kettner" />
+      <div>
+        <h1>Mac Kettner</h1>
+        <p class="subtitle">Sorcerer Supreme / Do-er of grand deeds
+
+        <div class="buttons">
+          <!-- This downloads the vCard file -->
+          <a class="button primary" href="mac-kettner.vcf" download>Save Contact (vCard)</a>
+
+          <!-- Convenience actions -->
+          <a class="button" href="mailto:Draconai@gmail.com">Email</a>
+          <a class="button" href="tel:+18165606916">Call</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <div><span class="label">Email:</span> <a href="mailto:Draconai@gmail.com">Draconai@gmail.com</a></div>
+      <div><span class="label">Phone:</span> <a href="tel:+18165606916">816-560-6916</a></div>
+      <div><span class="label">Location:</span> Independence, MO</div>
+    </div>
+
+    <div class="footer">
+      Tip: If “Save Contact” downloads a file, open it to add the contact.
+    </div>
+  </main>
+</body>
+</html>
